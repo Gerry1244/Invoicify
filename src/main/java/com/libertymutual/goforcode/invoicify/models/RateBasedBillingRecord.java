@@ -1,10 +1,12 @@
 package com.libertymutual.goforcode.invoicify.models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 
 @Entity
 public class RateBasedBillingRecord extends BillingRecord {
 	
+	@Column(nullable=false)
 	private double rate;
 	private double quantity;
 	

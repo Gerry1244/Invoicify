@@ -1,5 +1,11 @@
 package com.libertymutual.goforcode.invoicify.Repositories;
 
-public class BillingRecordRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.libertymutual.goforcode.invoicify.models.BillingRecord;
+
+@Repository
+public interface BillingRecordRepository extends JpaRepository<BillingRecord, Long> {
 
 }
