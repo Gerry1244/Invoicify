@@ -12,7 +12,6 @@ public class BillingRecordController {
 	@GetMapping("")
 	public String displayBillingRecords()  {
 		return "billing-records/list";
-	
 		
 	}
 
