@@ -82,7 +82,7 @@ public class User implements UserDetails {
 
 	@Override
 	public boolean isCredentialsNonExpired() {
-		return true;
+		return true; 
 	}
 
 	@Override
@@ -98,16 +98,8 @@ public class User implements UserDetails {
 		this.id = id;
 	}
 	
-	public void getPassword(String password) {
-		this.password = password;
-	}
-
 	public void setPassword(String password) {
 		this.password = password;
-	}
-	
-	public void getUserName(String username) {
-		this.username = username;
 	}
 
 	public void setUsername(String username) {

@@ -19,7 +19,7 @@ public class UserTests {
 	User user;
 	
 	@Before
-	public void setUp() {
+	public void setUp() { 
 		user = new User();
 	}
 	
